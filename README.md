@@ -96,44 +96,47 @@ Again, lattice parameters of all random binaries can be found in the file `lat_p
 
 Aaron Sheffer
 
-- Mo<sub>0.9</sub>Nb<sub>0.1</sub>, Mo<sub>0.8</sub>Nb<sub>0.2</sub>, Mo<sub>0.7</sub>Nb<sub>0.3</sub>, Mo<sub>0.6</sub>Nb<sub>0.4</sub>, and Mo<sub>0.4</sub>Nb<sub>0.6</sub>
+- Mo<sub>0.9</sub>Nb<sub>0.1</sub>, Mo<sub>0.8</sub>Nb<sub>0.2</sub>, Mo<sub>0.7</sub>Nb<sub>0.3</sub>, and Mo<sub>0.6</sub>Nb<sub>0.4</sub>
 
 Alex Ramirez
 
-- Mo<sub>0.9</sub>Ta<sub>0.1</sub>, Mo<sub>0.8</sub>Ta<sub>0.2</sub>, Mo<sub>0.7</sub>Ta<sub>0.3</sub>, Mo<sub>0.6</sub>Ta<sub>0.4</sub>, and Mo<sub>0.4</sub>Ta<sub>0.6</sub>
+- Mo<sub>0.9</sub>Ta<sub>0.1</sub>, Mo<sub>0.8</sub>Ta<sub>0.2</sub>, Mo<sub>0.7</sub>Ta<sub>0.3</sub>, and Mo<sub>0.6</sub>Ta<sub>0.4</sub>
 
 Joshua Hall
 
-- Mo<sub>0.9</sub>V<sub>0.1</sub>, Mo<sub>0.8</sub>V<sub>0.2</sub>, Mo<sub>0.7</sub>V<sub>0.3</sub>, Mo<sub>0.6</sub>V<sub>0.4</sub>, and Mo<sub>0.4</sub>V<sub>0.6</sub>
+- Mo<sub>0.9</sub>V<sub>0.1</sub>, Mo<sub>0.8</sub>V<sub>0.2</sub>, Mo<sub>0.7</sub>V<sub>0.3</sub>, and Mo<sub>0.6</sub>V<sub>0.4</sub>
 
 Marius Bauer
 
-- Mo<sub>0.9</sub>W<sub>0.1</sub>, Mo<sub>0.8</sub>W<sub>0.2</sub>, Mo<sub>0.7</sub>W<sub>0.3</sub>, Mo<sub>0.6</sub>W<sub>0.4</sub>, and Mo<sub>0.4</sub>W<sub>0.6</sub>
+- Mo<sub>0.9</sub>W<sub>0.1</sub>, Mo<sub>0.8</sub>W<sub>0.2</sub>, Mo<sub>0.7</sub>W<sub>0.3</sub>, and Mo<sub>0.6</sub>W<sub>0.4</sub>
 
 Ethan Lane
 
-- Nb<sub>0.9</sub>Ta<sub>0.1</sub>, Nb<sub>0.8</sub>Ta<sub>0.2</sub>, Nb<sub>0.7</sub>Ta<sub>0.3</sub>, Nb<sub>0.6</sub>Ta<sub>0.4</sub>, and Nb<sub>0.4</sub>Ta<sub>0.6</sub>
+- Nb<sub>0.9</sub>Ta<sub>0.1</sub>, Nb<sub>0.8</sub>Ta<sub>0.2</sub>, Nb<sub>0.7</sub>Ta<sub>0.3</sub>, and Nb<sub>0.6</sub>Ta<sub>0.4</sub>
 
 Mark MacNeill
 
-- Nb<sub>0.9</sub>V<sub>0.1</sub>, Nb<sub>0.8</sub>V<sub>0.2</sub>, Nb<sub>0.7</sub>V<sub>0.3</sub>, Nb<sub>0.6</sub>V<sub>0.4</sub>, and Nb<sub>0.4</sub>V<sub>0.6</sub>
+- Nb<sub>0.9</sub>V<sub>0.1</sub>, Nb<sub>0.8</sub>V<sub>0.2</sub>, Nb<sub>0.7</sub>V<sub>0.3</sub>, and Nb<sub>0.6</sub>V<sub>0.4</sub>
 
 Derek Alexander
 
-- Nb<sub>0.9</sub>W<sub>0.1</sub>, Nb<sub>0.8</sub>W<sub>0.2</sub>, Nb<sub>0.7</sub>W<sub>0.3</sub>, Nb<sub>0.6</sub>W<sub>0.4</sub>, and Nb<sub>0.4</sub>W<sub>0.6</sub>
+- Nb<sub>0.9</sub>W<sub>0.1</sub>, Nb<sub>0.8</sub>W<sub>0.2</sub>, Nb<sub>0.7</sub>W<sub>0.3</sub>, and Nb<sub>0.6</sub>W<sub>0.4</sub>
 
 Thomas Ward
 
-- Ta<sub>0.9</sub>V<sub>0.1</sub>, Ta<sub>0.8</sub>V<sub>0.2</sub>, Ta<sub>0.7</sub>V<sub>0.3</sub>, Ta<sub>0.6</sub>V<sub>0.4</sub>, and Ta<sub>0.4</sub>V<sub>0.6</sub>
+- Ta<sub>0.9</sub>V<sub>0.1</sub>, Ta<sub>0.8</sub>V<sub>0.2</sub>, Ta<sub>0.7</sub>V<sub>0.3</sub>, and Ta<sub>0.6</sub>V<sub>0.4</sub>
 
 Marco Borsatto
 
-- Ta<sub>0.9</sub>W<sub>0.1</sub>, Ta<sub>0.8</sub>W<sub>0.2</sub>, Ta<sub>0.7</sub>W<sub>0.3</sub>, Ta<sub>0.6</sub>W<sub>0.4</sub>, and Ta<sub>0.4</sub>W<sub>0.6</sub>
+- Ta<sub>0.9</sub>W<sub>0.1</sub>, Ta<sub>0.8</sub>W<sub>0.2</sub>, Ta<sub>0.7</sub>W<sub>0.3</sub>, and Ta<sub>0.6</sub>W<sub>0.4</sub>
 
-Note: each student will conduct $5\times 2\times 3 = 30$ LAMMPS simulations. Once all simulations are finished, upload the following to Canvas:
+In summary, each student will conduct $4\times 2\times 3 = 24$ LAMMPS simulations. Once all simulations are finished, upload the following to Canvas by mid-night April 25:
 
 - All `strain-stress` files
-- Values of the mean tensile and compressive strengths, respectively, for each binary 
+- All LAMMPS input files
+- Values of the mean tensile and compressive strengths, respectively, for each binary
+- Two curves, one for tension and another for compression, showing how the strength varies with the concentration _x_; include in your curves the strengths of constituent pure metals, which can be found in the file `pure-metals.txt` in this GitHub repository
+- Slides used in your presentation
 
 ## Reference
 
