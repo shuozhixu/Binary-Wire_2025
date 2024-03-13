@@ -4,9 +4,9 @@
 
 The purpose of this project is to calculate the yield strengths of nanowires in 90 refractory random binaries that consist of 5 refractory metals: Mo, Nb, Ta, V, and W. Both tensile and compressive loadings will be considered. In addition, because of the randomness in atomic distribution, three distributions are considered for each binary. As a result, a total of $90 \times 2 \times 3 = 540$ calculations are needed.
 
-The tensile and compressive yield strengths of nanowires in all 10 ternaries, 5 quaternaries, and 1 quinary that are made of the same 5 metals have been calculated in [this paper](http://dx.doi.org/10.1016/j.jallcom.2023.170556), which should be followed very closely. Yield strengths of nanowires in the 5 pure metals were calculated in the same paper too.
+The tensile and compressive yield strengths of nanowires in all 10 ternaries, 5 quaternaries, and 1 quinary that are made of the same 5 metals have been calculated in [this paper](https://shuozhixu.github.io/publications/mpe/xu_bcc.mpea_jac.2023.pdf), which should be followed very closely. Yield strengths of nanowires in the 5 pure metals were calculated in the same paper too.
 
-## Mo<sub>1-_x_</sub>Nb<sub>_x_</sub> binary
+## Mo<sub>1-_x_</sub>Nb<sub>_x_</sub> system
 
 ### _x_ = 0.1, tensile deformation
 
@@ -18,13 +18,13 @@ Submit the job by
 
 	sbatch lmp.batch
 
-The job should be finished within 72 hours. Once it is finished, you will find a file `strain-stress` in the same directory where you submit the job. The first column is the strain while the second column is the stress. The tensile strength is the maximum stress. To quickly find out the maximum tensile stress and its corresponding strain, run
+The job should be finished within 72 hours. Once it is finished, you will find a file `strain-stress` in the same directory where you submit the job. The first column is the strain while the second column is the stress, in units of GPa. The tensile strength is the maximum stress. To quickly find out the maximum tensile stress and its corresponding strain, run
 
 	sh max_curve.sh
 
 #### Distribution 2
 
-Create a new directory on OSCER named `Mo0.9Nb0.1_T2` and copy three files `CrMoNbTaVW_Xu2022.eam.alloy`, `lmp_T.in`, `lmp.batch`, and `max_curve.sh` there. Prior to submitting the job, we should make the following change in `lmp_T.in`:
+Create a new directory on OSCER named `Mo0.9Nb0.1_T2` and copy four files `CrMoNbTaVW_Xu2022.eam.alloy`, `lmp_T.in`, `lmp.batch`, and `max_curve.sh` there. Prior to submitting the job, make the following change in `lmp_T.in`:
 
 - line 26, change the number `134` to any other integer
 
@@ -52,7 +52,7 @@ In the end, calculate the mean compressive strength and record it for Mo<sub>0.9
 
 ### _x_ = 0.2
 
-Conduct LAMMPS simulations to calculate the tensile and compressive strengths, respectively, for the Mo<sub>0.8</sub>Nb<sub>0.2</sub> system. In addition to the changes we made above, make the following two additional changes to `lmp_T.in` or `lmp_C.in`:
+Conduct LAMMPS simulations to calculate the tensile and compressive strengths, respectively, for the Mo<sub>0.8</sub>Nb<sub>0.2</sub> system. In addition to the changes we made above, make the following two changes to `lmp_T.in` or `lmp_C.in`:
 
 - line 8, change the number `3.1581` to the lattice parameter of Mo<sub>0.8</sub>Nb<sub>0.2</sub>
 - line 26, change the number `0.1` to the value of _x_, i.e., `0.2`
@@ -61,11 +61,11 @@ Lattice parameters of all random binaries can be found in the file `lat_para.xls
 
 ### Other _x_
 
-Following the procedure above to calculate all other Mo<sub>1-_x_</sub>Nb<sub>_x_</sub> systems, where _x_ varies from 0.3 to 0.9.
+Follow the procedures above to calculate all other Mo<sub>1-_x_</sub>Nb<sub>_x_</sub> systems, where _x_ varies from 0.3 to 0.9.
 
 ## Other binary systems
 
-Below is a list of other 9 random binary systems:
+Below is a list of the remaining 9 random binary systems:
 
 - Mo<sub>1-_x_</sub>Ta<sub>_x_</sub>
 - Mo<sub>1-_x_</sub>V<sub>_x_</sub>
