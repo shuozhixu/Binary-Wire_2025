@@ -96,39 +96,39 @@ Again, lattice parameters of all random binaries can be found in the file `lat_p
 
 Aaron Sheffer
 
-- Mo<sub>0.9</sub>Nb<sub>0.1</sub>, Mo<sub>0.8</sub>Nb<sub>0.2</sub>, Mo<sub>0.7</sub>Nb<sub>0.3</sub>, and Mo<sub>0.6</sub>Nb<sub>0.4</sub>
+- Mo<sub>0.8</sub>Nb<sub>0.2</sub>, Mo<sub>0.6</sub>Nb<sub>0.4</sub>, Mo<sub>0.4</sub>Nb<sub>0.6</sub>, and Mo<sub>0.2</sub>Nb<sub>0.8</sub>
 
 Alex Ramirez
 
-- Mo<sub>0.9</sub>Ta<sub>0.1</sub>, Mo<sub>0.8</sub>Ta<sub>0.2</sub>, Mo<sub>0.7</sub>Ta<sub>0.3</sub>, and Mo<sub>0.6</sub>Ta<sub>0.4</sub>
+- Mo<sub>0.8</sub>Ta<sub>0.2</sub>, Mo<sub>0.6</sub>Ta<sub>0.4</sub>, Mo<sub>0.4</sub>Ta<sub>0.6</sub>, and Mo<sub>0.2</sub>Ta<sub>0.8</sub>
 
 Joshua Hall
 
-- Mo<sub>0.9</sub>V<sub>0.1</sub>, Mo<sub>0.8</sub>V<sub>0.2</sub>, Mo<sub>0.7</sub>V<sub>0.3</sub>, and Mo<sub>0.6</sub>V<sub>0.4</sub>
+- Mo<sub>0.8</sub>V<sub>0.2</sub>, Mo<sub>0.6</sub>V<sub>0.4</sub>, Mo<sub>0.4</sub>V<sub>0.6</sub>, and Mo<sub>0.2</sub>V<sub>0.8</sub>
 
 Marius Bauer
 
-- Mo<sub>0.9</sub>W<sub>0.1</sub>, Mo<sub>0.8</sub>W<sub>0.2</sub>, Mo<sub>0.7</sub>W<sub>0.3</sub>, and Mo<sub>0.6</sub>W<sub>0.4</sub>
+- Mo<sub>0.8</sub>W<sub>0.2</sub>, Mo<sub>0.6</sub>W<sub>0.4</sub>, Mo<sub>0.4</sub>W<sub>0.6</sub>, and Mo<sub>0.2</sub>W<sub>0.8</sub>
 
 Ethan Lane
 
-- Nb<sub>0.9</sub>Ta<sub>0.1</sub>, Nb<sub>0.8</sub>Ta<sub>0.2</sub>, Nb<sub>0.7</sub>Ta<sub>0.3</sub>, and Nb<sub>0.6</sub>Ta<sub>0.4</sub>
+- Nb<sub>0.8</sub>Ta<sub>0.2</sub>, Nb<sub>0.6</sub>Ta<sub>0.4</sub>, Nb<sub>0.4</sub>Ta<sub>0.6</sub>, and Nb<sub>0.2</sub>Ta<sub>0.8</sub>
 
 Mark MacNeill
 
-- Nb<sub>0.9</sub>V<sub>0.1</sub>, Nb<sub>0.8</sub>V<sub>0.2</sub>, Nb<sub>0.7</sub>V<sub>0.3</sub>, and Nb<sub>0.6</sub>V<sub>0.4</sub>
+- Nb<sub>0.8</sub>V<sub>0.2</sub>, Nb<sub>0.6</sub>V<sub>0.4</sub>, Nb<sub>0.4</sub>V<sub>0.6</sub>, and Nb<sub>0.2</sub>V<sub>0.8</sub>
 
 Derek Alexander
 
-- Nb<sub>0.9</sub>W<sub>0.1</sub>, Nb<sub>0.8</sub>W<sub>0.2</sub>, Nb<sub>0.7</sub>W<sub>0.3</sub>, and Nb<sub>0.6</sub>W<sub>0.4</sub>
+- Nb<sub>0.8</sub>W<sub>0.2</sub>, Nb<sub>0.6</sub>W<sub>0.4</sub>, Nb<sub>0.4</sub>W<sub>0.6</sub>, and Nb<sub>0.2</sub>W<sub>0.8</sub>
 
 Thomas Ward
 
-- Ta<sub>0.9</sub>V<sub>0.1</sub>, Ta<sub>0.8</sub>V<sub>0.2</sub>, Ta<sub>0.7</sub>V<sub>0.3</sub>, and Ta<sub>0.6</sub>V<sub>0.4</sub>
+- Ta<sub>0.8</sub>V<sub>0.2</sub>, Ta<sub>0.6</sub>V<sub>0.4</sub>, Ta<sub>0.4</sub>V<sub>0.6</sub>, and Ta<sub>0.2</sub>V<sub>0.8</sub>
 
 Marco Borsatto
 
-- Ta<sub>0.9</sub>W<sub>0.1</sub>, Ta<sub>0.8</sub>W<sub>0.2</sub>, Ta<sub>0.7</sub>W<sub>0.3</sub>, and Ta<sub>0.6</sub>W<sub>0.4</sub>
+- Ta<sub>0.8</sub>W<sub>0.2</sub>, Ta<sub>0.6</sub>W<sub>0.4</sub>, Ta<sub>0.4</sub>W<sub>0.6</sub>, and Ta<sub>0.2</sub>W<sub>0.8</sub>
 
 In summary, each student will conduct $4\times 2\times 3 = 24$ LAMMPS simulations. Once all simulations are finished, upload the following to Canvas by mid-night April 25:
 
