@@ -3,7 +3,7 @@
 #SBATCH --job-name=project
 #SBATCH --partition=ame4970
 #SBATCH --nodes=1
-#SBATCH --ntasks=32
+#SBATCH --ntasks-per-node=32
 #SBATCH --output=lmp.out
 #SBATCH --error=lmp.err
 #SBATCH --time=200:00:00
@@ -26,7 +26,7 @@ echo "the job is ${SLURM_JOB_ID}"
 
 module load intel/2022a
 
-mpirun -np $SLURM_NPROCS ~/lammps-mbecmc/src/lmp_mpi -in lmp_T.in
+mpirun ~/lammps-mbecmc/src/lmp_mpi -in lmp_T.in
 
 #echo "lammps out"
 

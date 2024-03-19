@@ -18,9 +18,11 @@ Submit the job by
 
 	sbatch lmp.batch
 
-The job should be finished in about 60 hours. Once it is finished, you will find a file `strain-stress` in the same directory where you submit the job. The first column is the strain while the second column is the stress, in units of GPa. The tensile strength is the maximum stress. To quickly find out the maximum tensile stress and its corresponding strain, run
+The job should be finished in about 62 hours. Once it is finished, you will find a file `strain-stress` in the same directory where you submit the job. The first column is the strain while the second column is the stress, in units of GPa. The tensile strength is the maximum stress. Run
 
 	sh max_curve.sh
+
+Then on the screen, the second number is the maximum tensile stress (in GPa) while the first number is its corresponding strain.
 
 #### Distribution 2
 
