@@ -132,7 +132,7 @@ Marco Borsatto
 
 - Ta<sub>0.8</sub>W<sub>0.2</sub>, Ta<sub>0.6</sub>W<sub>0.4</sub>, Ta<sub>0.4</sub>W<sub>0.6</sub>, and Ta<sub>0.2</sub>W<sub>0.8</sub>
 
-In summary, each student will conduct $4\times 2\times 3 = 24$ LAMMPS simulations. Once all simulations are finished, upload the following to Canvas by mid-night April 25:
+In summary, each student will conduct $4\times 2\times 3 = 24$ LAMMPS simulations. Once all simulations are finished, upload the following to Canvas by mid-night May 2nd:
 
 - All `strain-stress` files
 - All LAMMPS input files
