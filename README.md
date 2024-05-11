@@ -122,7 +122,7 @@ Mark MacNeill
 
 Derek Alexander
 
-- Nb<sub>0.8</sub>W<sub>0.2</sub>, Nb<sub>0.6</sub>W<sub>0.4</sub>, Nb<sub>0.4</sub>W<sub>0.6</sub>, and Nb<sub>0.2</sub>W<sub>0.8</sub>
+- Nb<sub>0.8</sub>W<sub>0.2</sub>, Nb<sub>0.6</sub>W<sub>0.4</sub>, Nb<sub>0.5</sub>W<sub>0.5</sub>, Nb<sub>0.4</sub>W<sub>0.6</sub>, and Nb<sub>0.2</sub>W<sub>0.8</sub>
 
 Thomas Ward
 
@@ -132,13 +132,21 @@ Marco Borsatto
 
 - Ta<sub>0.8</sub>W<sub>0.2</sub>, Ta<sub>0.6</sub>W<sub>0.4</sub>, Ta<sub>0.4</sub>W<sub>0.6</sub>, and Ta<sub>0.2</sub>W<sub>0.8</sub>
 
-In summary, each student will conduct $4\times 2\times 3 = 24$ LAMMPS simulations. Once all simulations are finished, upload the following to Canvas by mid-night May 2nd:
+Shuozhi Xu
 
-- All `strain-stress` files
-- All LAMMPS input files
-- Values of the mean tensile and compressive strengths, respectively, for each binary
-- Two curves, one for tension and another for compression, showing how the strength varies with the concentration _x_; include in your curves the strengths of constituent pure metals (i.e., when _x_ is either 0 or 1), which can be found in the file `pure-metals.txt` in this GitHub repository. That way, each curve would consist of six points, including two for pure metals and four for binaries.
-- Slides used in your in-class presentation
+- V<sub>1-_x_</sub>W<sub>_x_</sub>
+
+Mohammad Younes Araghi
+
+- All remaining simulations
+
+[//]: # (In summary, each student will conduct $4\times 2\times 3 = 24$ LAMMPS simulations. Once all simulations are finished, upload the following to Canvas by mid-night May 2nd:)
+
+[//]: # (- All `strain-stress` files)
+[//]: # (- All LAMMPS input files)
+[//]: # (- Values of the mean tensile and compressive strengths, respectively, for each binary)
+[//]: # (- Two curves, one for tension and another for compression, showing how the strength varies with the concentration _x_; include in your curves the strengths of constituent pure metals (i.e., when _x_ is either 0 or 1), which can be found in the file `pure-metals.txt` in this GitHub repository. That way, each curve would consist of six points, including two for pure metals and four for binaries.)
+[//]: # (- Slides used in your in-class presentation)
 
 ## Reference
 
