@@ -147,7 +147,7 @@ Mohammad Younes Araghi
 [//]: # (- All `strain-stress` files)
 [//]: # (- All LAMMPS input files)
 [//]: # (- Values of the mean tensile and compressive strengths, respectively, for each binary)
-[//]: # (- Two curves, one for tension and another for compression, showing how the strength varies with the concentration _x_; include in your curves the strengths of constituent pure metals (i.e., when _x_ is either 0 or 1), which can be found in the file `pure-metals.txt` in this GitHub repository. That way, each curve would consist of six points, including two for pure metals and four for binaries.)
+[//]: # (- Two curves, one for tension and another for compression, showing how the strength varies with the concentration _x_; include in your curves the strengths of constituent pure metals, i.e., when _x_ is either 0 or 1, which can be found in the file `pure-metals.txt` in this GitHub repository. That way, each curve would consist of six points, including two for pure metals and four for binaries.)
 [//]: # (- Slides used in your in-class presentation)
 
 ## Reference
