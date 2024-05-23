@@ -138,7 +138,7 @@ Shuozhi Xu
 
 - V<sub>0.8</sub>W<sub>0.2</sub>, V<sub>0.6</sub>W<sub>0.4</sub>, V<sub>0.4</sub>W<sub>0.6</sub>, and V<sub>0.2</sub>W<sub>0.8</sub>
 
-Mohammad Younes Araghi
+Mohammad Younes Araghi and Mahshad Fani
 
 - All remaining simulations
 
