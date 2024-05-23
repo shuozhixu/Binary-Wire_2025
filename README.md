@@ -94,9 +94,9 @@ For example, for the tensile deformation of Ta<sub>0.7</sub>W<sub>0.3</sub>,
 
 Again, lattice parameters of all random binaries can be found in the file `lat_para.xlsx` in this GitHub repository.
 
-## Contributions
+## Contributors
 
-A huge thank you to the first nine contributors who ran the following simulations for the final project in Dr. Shuozhi Xu's [Computational Materials Science course in Spring 2024](https://shuozhixu.github.io/teaching/spring-2024/AME4970-5970-Syllabus.pdf) at the University of Oklahoma!
+A huge thank you to the first nine contributors who ran simulations for the final project in Dr. Shuozhi Xu's [Computational Materials Science course in Spring 2024](https://shuozhixu.github.io/teaching/spring-2024/AME4970-5970-Syllabus.pdf) at the University of Oklahoma!
 
 Aaron Sheffer
 
